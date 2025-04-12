@@ -1,0 +1,12 @@
+prefix=D:/Folder E Data/Data Science/python/venv/Library
+exec_prefix=D:/Folder E Data/Data Science/python/venv/Library
+libdir=D:/Folder E Data/Data Science/python/venv/Library/lib
+includedir=D:/Folder E Data/Data Science/python/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 

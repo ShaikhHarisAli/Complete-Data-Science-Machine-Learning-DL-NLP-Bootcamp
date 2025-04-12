@@ -1,6 +1,7 @@
 {
  "argv": [
-  "python",
+  "D:/Folder E Data/Data Science/python/venv\\python.exe",
+  "-Xfrozen_modules=off",
   "-m",
   "ipykernel_launcher",
   "-f",
